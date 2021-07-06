@@ -1,0 +1,16 @@
+{
+  "name": "checkout-v6-name-",
+  "vendor": "vendor",
+  "version": "0.0.1",
+  "title": "title",
+  "description": "description",
+  "builders": {
+    "docs": "0.x",
+    "checkout-ui-custom": "0.x"
+  },
+  "scripts": {
+    "prereleasy": "bash lint.sh"
+  },
+  "credentialType": "absolute",
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
